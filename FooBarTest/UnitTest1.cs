@@ -23,10 +23,10 @@ namespace FooBarTest
         public void FizzBuzzWoofTest(int input, string output)
         {
             // Arrange
-            var sut = new FizzBuzz();
+            FizzBuzz sut = new FizzBuzz();
 
             // Act
-            var result = sut.FizzBuzzWoof(input);
+            string result = sut.FizzBuzzWoof(input);
 
             // Assert
             Assert.Equal(output, result);

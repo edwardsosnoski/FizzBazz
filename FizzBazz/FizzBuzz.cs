@@ -27,7 +27,7 @@ namespace FizzBazz
                 sb.Append("Woof");
             }
 
-            if (!isFizz && !isBuzz & !isWoof)
+            if (!isFizz && !isBuzz && !isWoof)
             {
                 sb.Append(input.ToString());
             }
